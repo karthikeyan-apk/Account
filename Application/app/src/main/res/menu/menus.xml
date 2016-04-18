@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/add_view"
+            android:checked="false"
+            android:title="@string/bt_add"
+            android:icon="@drawable/adduser"/>
+        <item
+            android:id="@+id/view_single"
+            android:checked="false"
+            android:title="@string/view_single"
+            android:icon="@drawable/viewuser"/>
+        <item
+            android:id="@+id/view_full"
+            android:checked="false"
+            android:title="@string/view_full"
+            android:icon="@drawable/viewuser"/>
+    </group>
+</menu>
